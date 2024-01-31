@@ -1,15 +1,12 @@
 @font-face {
     font-family: 'Roboto';
-    src: url(Roboto/Roboto-Black.ttf) format('truetype');
+    src: url('Roboto/Roboto-Black.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
-} 
+}
 
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-body, h1, h2, h3, p, header, div {
     margin: 0;
     padding: 0;
 }
@@ -20,43 +17,43 @@ body, h1, h2, h3, p, header, div {
 }
 
 .blended-image {
-    position:relative;
+    position: relative;
 }
+
 
 .blended-image::after {
     content: "";
-    position:absolute;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: url(Images/theater-image-background.png) center/cover no-repeat; 
-    mix-blend-mode: overlay;
+    background: url('Images/Griot\ Theater\ -\ Featured\ Shows\ -\ Desktop-Laptop.jpg') center/cover no-repeat; 
 }
-
 
 .navbar {
     z-index: 1;
 }
+
 h1, p {
     font-family: 'Roboto', sans-serif;
 }
 
 .footer {
-background-color: black;
-color: white;
-padding: 20px;
-display: flex;
-justify-content: space-between;
-align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .column img {
-max-width: 100%;
-height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .column {
-flex: 1;
-margin-right: 20px;
+    flex: 1;
+    margin-right: 20px;
 }
