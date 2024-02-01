@@ -35,25 +35,64 @@ body {
     z-index: 1;
 }
 
+
+
+.customnavbar-bg {
+    background-color:#17778f;
+}
+
+
 h1, p {
     font-family: 'Roboto', sans-serif;
 }
 
+.section-with-line {
+    position: relative;
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+.line-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 100%;
+    height: 2px%;
+    background-color: black;
+}
+
+.line-text {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
 .footer {
     background-color: black;
-    color: white;
+    color:white;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.column img {
-    max-width: 100%;
-    height: auto;
+.black-footer {
+    background-color: black;
+    width: 205vh;
+    height:auto;
 }
-
 .column {
     flex: 1;
     margin-right: 20px;
+    color:beige
+}
+
+
+.footer-image {
+    max-width: 30%;
+    max-height: 30%;
+    width: auto;
+    height: auto;
 }
